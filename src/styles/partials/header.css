@@ -30,7 +30,7 @@
   background: rgba(0, 0, 0, .5);
 }
 
-/* Seleciona o LI após outro LI. */
+/* Seleciona o LI que vem após outro LI. */
 .header li+li {
   margin-left: 30px;
 }

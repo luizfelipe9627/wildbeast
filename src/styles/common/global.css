@@ -1,3 +1,10 @@
 body {
   font-family: "Volkorn", Georgia, serif;
 }
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, .7);
+}

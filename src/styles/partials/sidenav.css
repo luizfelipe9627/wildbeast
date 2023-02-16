@@ -7,13 +7,17 @@
 .sidenav li a {
   display: block;
   min-width: 60px;
-  max-width: 100px;
+  max-width: 137px;
   margin: 0 auto 30px auto;
   background-color: #FFFFFF;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
   transition: .1s ease-out;
+}
+
+.sidenav li a img {
+  max-width: 100px;
 }
 
 .sidenav li a:hover {
