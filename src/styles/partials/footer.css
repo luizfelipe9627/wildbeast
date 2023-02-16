@@ -1,3 +1,10 @@
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844EE, #B07DFB);
+}
+
+.footer p {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 30px;
 }
