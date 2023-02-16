@@ -1,2 +1,11 @@
+/* Global. */
 @import url('./common/global.css');
 @import url('./common/reset.css');
+@import url('./fonts/font.css');
+
+/* Wildbeast */
+@import url('./partials/container.css');
+@import url('./partials/header.css');
+@import url('./partials/sidenav.css');
+@import url('./partials/content.css');
+@import url('./partials/anuncios.css');
