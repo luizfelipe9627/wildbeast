@@ -4,7 +4,8 @@
 @import url('./fonts/font.css');
 
 /* Utilidades */
-@import url('./utils/animation.css');
+@import url('./utils/keyframe.css');
+@import url('./utils/componente.css');
 
 /* Wildbeast */
 @import url('./partials/container.css');

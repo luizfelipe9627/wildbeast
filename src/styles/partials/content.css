@@ -7,10 +7,6 @@
   gap: 30px;
 }
 
-.col-wide {
-  grid-column: 1 / -1;
-}
-
 .imagem-1 {
   grid-row: span 2;
   align-self: end;
@@ -112,3 +108,4 @@
 .atributos li + li {
   border-top: 2px solid #B07DFB;
 }
+

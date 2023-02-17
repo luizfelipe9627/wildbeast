@@ -31,7 +31,7 @@
   }
 
   .sidenav::after {
-    content: '🡒';
+    content: '→';
     position: absolute;
     top: 5px;
     right: 30px;
