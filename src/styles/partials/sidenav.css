@@ -16,10 +16,46 @@
   transition: .1s ease-out;
 }
 
-.sidenav li a img {
-  max-width: 100px;
-}
-
 .sidenav li a:hover {
   background-color: #B07DFB;
+}
+
+@media (max-width: 760px) {
+  .sidenav {
+    overflow-x: auto;
+    /* Para funcionar o touch/deslizamento nos navegadores. */
+    --webkit-overflow-scrolling: touch;
+    /* Esconde a barra de scroll quando tiver no Edge ou Internet Explorer. */
+    --ms-overflow-style: -ms-autohiding-scrollbar;
+    position: relative;
+  }
+
+  .sidenav::after {
+    content: '🡒';
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, .3);
+    animation: seta .5s ease-in 0s infinite alternate;
+  }
+
+  .sidenav ul {
+    display: flex;
+  }
+
+  .sidenav ul li {
+    flex: 1 0 60px;
+  }
+
+  .sidenav {
+    padding: 0 30px;
+  }
+
+  .sidenav li a {
+    margin: 30px 30px 30px 0;
+  }
+
+  .sidenav li a img {
+    width: 60px;
+  }
 }

@@ -3,6 +3,9 @@
 @import url('./common/reset.css');
 @import url('./fonts/font.css');
 
+/* Utilidades */
+@import url('./utils/animation.css');
+
 /* Wildbeast */
 @import url('./partials/container.css');
 @import url('./partials/header.css');
@@ -10,3 +13,4 @@
 @import url('./partials/content.css');
 @import url('./partials/anuncios.css');
 @import url('./partials/footer.css');
+
