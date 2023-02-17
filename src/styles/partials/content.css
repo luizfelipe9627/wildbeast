@@ -7,6 +7,12 @@
   gap: 30px;
 }
 
+@media(max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+
 .imagem-1 {
   grid-row: span 2;
   align-self: end;
