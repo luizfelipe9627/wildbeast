@@ -23,9 +23,9 @@
 @media (max-width: 760px) {
   .sidenav {
     overflow-x: auto;
-    /* Para funcionar o touch/deslizamento nos navegadores. */
+    /* Para funcionar o touch/deslizamento nos navegadores no mobile. */
     --webkit-overflow-scrolling: touch;
-    /* Esconde a barra de scroll quando tiver no Edge ou Internet Explorer. */
+    /* Esconde a barra de scroll caso não houver scroll. */
     --ms-overflow-style: -ms-autohiding-scrollbar;
     position: relative;
   }
