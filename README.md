@@ -14,7 +14,7 @@ Wildbeast é o projeto final do módulo de CSS Grid feito na Origamid.
 ## 🔍 Layout 
 Este layout foi criado por André Rafael no curso realizado através da Origamid.
 
-### <a href="https://origamid.com/curso/css-grid-layout">Acessar o curso</a>
+### <a href="https://www.origamid.com/curso/css-grid-layout">Acessar o curso</a>
 
 ## 💻 Tecnologias utilizadas
 
